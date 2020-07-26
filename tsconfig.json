@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist/tsc-out",
+    "target": "esnext",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "jsx": "react",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "declaration": true,
+    "skipLibCheck": true,
+    "paths": {
+      "@ui-kitten/*": ["./src/*"]
+    }
+  },
+  "include": ["./src", "./src/**/package.json", "babel.config.js"],
+  "exclude": [
+    "./src/template-js",
+    "./src/template-ts",
+    "./src/showcases",
+    "./**/*.spec.ts",
+    "./**/*.spec.tsx"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject",
+    "test": "jest",
+    "cypress": "cypress open"
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.10.4",
+    "@babel/runtime": "^7.10.5",
+    "@react-native-community/masked-view": "0.1.10",
+    "@react-navigation/bottom-tabs": "^5.7.2",
+    "@react-navigation/native": "^5.7.1",
+    "@react-navigation/stack": "^5.7.1",
+    "@types/jest": "^26.0.7",
+    "@types/mocha": "^8.0.0",
+    "babel-preset-react-native": "5.0.2",
+    "expo": "~38.0.8",
+    "expo-status-bar": "^1.0.2",
+    "jest-transform-stub": "^2.0.0",
+    "react": "~16.11.0",
+    "react-dom": "~16.11.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-38.0.2.tar.gz",
+    "react-native-gesture-handler": "~1.6.0",
+    "react-native-reanimated": "~1.9.0",
+    "react-native-safe-area-context": "~3.0.7",
+    "react-native-screens": "~2.9.0",
+    "react-native-swiper-flatlist": "^2.0.4",
+    "react-native-testing-library": "^2.1.1",
+    "react-native-unimodules": "^0.10.1",
+    "react-native-web": "~0.11.7",
+    "react-test-renderer": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.5",
+    "@types/react": "^16.9.43",
+    "@types/react-dom": "^16.9.8",
+    "@types/react-native": "^0.63.2",
+    "babel-preset-expo": "~8.1.0",
+    "cypress": "^4.11.0",
+    "jest": "^26.1.0",
+    "typescript": "^3.9.7"
+  },
+  "private": true,
+  "jest": {
+    "preset": "jest-expo",
+    "transformIgnorePatterns": [
+      "node_modules/(?!(jest-)?react-native|react-clone-referenced-element|@react-native-community|expo(nent)?|@expo(nent)?/.*|react-navigation|@react-navigation/.*|@unimodules/.*|unimodules|sentry-expo|native-base)"
+    ]
+  }
+}
