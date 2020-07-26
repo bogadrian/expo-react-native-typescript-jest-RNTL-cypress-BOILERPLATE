@@ -11,17 +11,8 @@
     "experimentalDecorators": true,
     "sourceMap": true,
     "declaration": true,
-    "skipLibCheck": true,
-    "paths": {
-      "@ui-kitten/*": ["./src/*"]
-    }
+    "skipLibCheck": true
   },
   "include": ["./src", "./src/**/package.json", "babel.config.js"],
-  "exclude": [
-    "./src/template-js",
-    "./src/template-ts",
-    "./src/showcases",
-    "./**/*.spec.ts",
-    "./**/*.spec.tsx"
-  ]
+  "exclude": ["./**/*.spec.ts", "./**/*.spec.tsx"]
 }

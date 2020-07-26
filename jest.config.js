@@ -3,12 +3,7 @@ module.exports = {
   cacheDirectory: '<rootDir>/dist/jest/cache',
   coverageDirectory: '<rootDir>/dist/jest/coverage',
   moduleFileExtensions: ['ts', 'tsx', 'js'],
-  modulePathIgnorePatterns: [
-    '<rootDir>/src/showcases/',
-    '<rootDir>/src/template-js/',
-    '<rootDir>/src/template-ts/',
-    '<rootDir>/cypress/'
-  ],
+  modulePathIgnorePatterns: ['<rootDir>/cypress/'],
   testPathIgnorePatterns: [
     '<rootDir>/node_modules',
     '<rootDir>/dist',
